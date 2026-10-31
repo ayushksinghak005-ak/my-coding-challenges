@@ -1,0 +1,2 @@
+• English: Create a dictionary containing 3 student names as keys and their grades (A, B, C) as values. Ask the user to input a student's name. If the name exists in the dictionary, print their grade. Otherwise, print "Student not found".
+• हिंदी: एक डिक्शनरी बनाएं जिसमें 3 छात्रों के नाम (Keys) और उनके ग्रेड (A, B, C) (Values) हों। यूज़र से किसी छात्र का नाम इनपुट कराएं। अगर वह नाम डिक्शनरी में है, तो उसका ग्रेड प्रिंट करें। नहीं तो, "Student not found" प्रिंट करें।
