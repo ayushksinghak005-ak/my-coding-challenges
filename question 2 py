@@ -23,4 +23,6 @@ while True :
  if (attempts > 0 ):
    print("WRONG PIN ![attemps] attempts left.")
    continue
-  
+ elif (attempts == 0) :
+   print("Card Block ! Too many wrong attempts.")
+   break 
