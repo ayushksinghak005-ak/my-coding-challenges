@@ -1,4 +1,4 @@
-
+"""
 #चैलेंज सवाल: "ATM PIN Verification System"
 
 परिदृश्य (Scenario): आपको एक बैंक के ATM के लिए PIN वेरिफिकेशन सिस्टम बनाना है। यूजर का सही PIN 1234 है।
@@ -9,8 +9,8 @@
 4. कंडीशन 2 (Continue): अगर यूजर गलत PIN
  डालता है, तो उसके मौके कम करें (attempts = attempts - 1)।
 	• अगर मौके अभी भी बचे हैं (0 से ज्यादा हैं), तो प्रिंट करें "Wrong PIN! [attempts] attempts left." और continue का उपयोग करके उसे फिर से मौका दें।
-5. कंडीशन 3 (Break): अगर गलत PIN डालते-डालते मौके 0 हो जाएं, तो प्रिंट करें "Card Blocked! Too many wrong attempts." और लूप को break कर दें।
- # solution:
+5. कंडीशन 3 (Break): अगर गलत PIN डालते-डालते मौके 0 हो जाएं, तो प्रिंट करें "Card Blocked! Too many wrong attempts." और लूप को break कर दें।"""
+ # code:
 currect_pin = "1234"
 attempts = 3
 print("please enter four digit pin")
